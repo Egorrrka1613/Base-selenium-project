@@ -5,7 +5,7 @@ from helpers.wrapp_driver import WrappedLocalWebDriver
 
 
 @pytest.fixture(scope="function")
-def browser(request):
+def browser():
     options = webdriver.ChromeOptions()
     options.add_argument('--no-sandbox')
     options.add_argument('--ignore-certificate-errors')
