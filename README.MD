@@ -4,7 +4,7 @@ Example of primitive test project using selenium, pytest, allure.
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install.
 
 ```bash
 pip install virtualenv
